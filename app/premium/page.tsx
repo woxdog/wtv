@@ -3,6 +3,7 @@
 import { Suspense } from 'react';
 import { SearchForm } from '@/components/search/SearchForm';
 import { NoResults } from '@/components/search/NoResults';
+import { PasswordGate } from "@/components/PasswordGate";
 import { Navbar } from '@/components/layout/Navbar';
 import { SearchResults } from '@/components/home/SearchResults';
 import { usePremiumHomePage } from '@/lib/hooks/usePremiumHomePage';
