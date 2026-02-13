@@ -23,6 +23,7 @@ function PremiumHomePage() {
     } = usePremiumHomePage();
 
     return (
+        <PasswordGate hasEnvPassword={!!process.env.ACCESS_PASSWORD}>
         <div className="min-h-screen bg-black">
             {/* Glass Navbar */}
             <Navbar onReset={handleReset} isPremiumMode={true} />
@@ -70,6 +71,7 @@ function PremiumHomePage() {
             {/* Favorites Sidebar - Left */}
             <FavoritesSidebar isPremium={true} />
         </div>
+        </PasswordGate>
     );
 }
 
