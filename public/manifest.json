@@ -1,6 +1,6 @@
 {
-    "name": "WTV - 视频聚合平台",
-    "short_name": "WTV",
+    "name": "KVideo - 视频聚合平台",
+    "short_name": "KVideo",
     "description": "多源视频聚合搜索和播放平台",
     "start_url": "/",
     "display": "standalone",
